@@ -25,7 +25,7 @@ if (!file.exists("data-raw/hh_data.sav")) {
   gosp <- haven::read_spss("data-raw/hh_data.sav", user_na = TRUE)
   saveRDS(gosp, file = "data/hh_data.RDS")
 }
-if (!file.exists("data-raw/ind_data.sav") {
+if (!file.exists("data-raw/ind_data.sav")) {
   download.file("http://diagnoza.com/pliki/bazy_danych/2015/ds_0_15_ind_14112015.sav", destfile = "data-raw/ind_data.sav") 
   osob <- haven::read_spss("data-raw/ind_data.sav", user_na = TRUE)
   saveRDS(osob, file = "data/ind_data.RDS")
