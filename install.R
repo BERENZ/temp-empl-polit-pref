@@ -14,10 +14,10 @@ install.packages("lmerTest")
 install.packages("bife")
 
 ## structure of the project
-if (!dir.exists("codes") dir.create("codes")
-if (!dir.exists("results") dir.create("results")
-if (!dir.exists("data") dir.create("data")
-if (!dir.exists("data-raw") dir.create("data-raw")
+if (!dir.exists("codes")) dir.create("codes")
+if (!dir.exists("results")) dir.create("results")
+if (!dir.exists("data")) dir.create("data")
+if (!dir.exists("data-raw")) dir.create("data-raw")
 
 ## download data from Diagnoza.com
 if (!file.exists("data-raw/hh_data.sav")) {
