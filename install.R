@@ -1,6 +1,20 @@
 ## packages
-install.packages("bife")
+install.packages("tidyverse")
+install.packages("data.table")
+install.packages("lmtest")
+install.packages("sandwich")
+install.packages("survey")
+install.packages("broom")
+install.packages("stringi")
+install.packages("Matrix")
+install.packages("validate")
+install.packages("VIM")
 install.packages("haven")
+#install.packages("fst")
+install.packages("VIM")
+install.packages("lme4")
+install.packages("lmerTest")
+install.packages("bife")
 
 ## structure of the project
 dir.create("codes")
